@@ -160,3 +160,35 @@ hr{
   align-items: center;
   justify-content: center;
 }
+
+/* @media screen and (min-width:680px) {
+  .intro {
+  background-color: yellow;
+    
+  }
+  
+} */
+@media screen and (max-width:680px) {
+  .intro {
+  width:100%;
+  
+    
+  }
+  h1{
+    width:200px
+  }
+  .bottom-cloud{
+    left: 200px;padding: 20px;
+  }
+  .profile{
+    padding: 20px;
+  }
+  .img-mount img {
+    width: -webkit-fill-available;
+  }
+  .contact-me{
+    padding: 20px;
+  }
+
+  
+}
